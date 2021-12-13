@@ -1,40 +1,104 @@
 <!doctype html>
 <html lang="en">
-	<head>
-     <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="halaworld.css" rel="stylesheet">
-	<link href="/css/fontawesome.css" rel="stylesheet">
-	<link href="/css/brands.css" rel="stylesheet">
-	<link href="/css/regular.css" rel="stylesheet">
-	<title>Hala World</title>
-</head>
-<body>
-<main>
-  <section id="left">
-   <div>
-    <img id="profilepic" src="computer.jpg" alt="computerPic"/>
-   </div>
-   <div>
-    <h3 id="name">Hala Hammad</h3>
-    <p id="job">Software Developer</p>
-   </div>
-   <div id="listdiv">
-     <ul>
-     <li><i class="fa-regular fa-house"></i><a href="">Home </a></li>
-     <li><a href="">Education</a></li>
-     <li><a href="">Experience</a></li>
-     <li><a href="">Projects</a></li>
-     <li><a href="">Hobbies</a></li>
-     </ul>
-   </div>
-  </section>
-  <section id="rightSec">
-  <h2 id="hello">Hello!</h2><br> 
-  <p id="briefInfo">My name is <b>Hala Hammad</b>, and I am a Junior<br>Software Developer studying at Fanshawe in Computer Programmer Analyst, London,ON</p> 
-  <h5 id="learnMore">learn more about me </h5>
-  </section>
-</main>
-<footer>All Copy Rights Reserved @2021</footer>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/assets/css/halaworld.css" rel="stylesheet">
+        <link href="/assets/css/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+
+        <title>Hala World</title>
+    </head>
+    <body>
+        <div id="root">
+            <main>
+                <section class="section-item" id="leftSec">
+                    <div class="section-sub-item">
+                        <div id="profile-container">
+                            <img id="profilepic" src="/assets/image/computer_square.jpg" alt="computerPic"/>
+                        </div>
+                    </div>
+                    <div  class="section-sub-item">
+                        <h3 id="name">Hala Hammad</h3>
+                        <p id="job">Software Developer</p>
+                    </div>
+                    <div  class="section-sub-item" id="listdiv">
+                        <ul>
+                            <li>
+                                <a href="#home">
+                                    <div class="nav-item">
+                                        <div class="nav-icon">
+                                            <i class="fa fa-home"></i>
+                                        </div>
+                                        <div class="nav-name">
+                                            <span>Home</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#education">
+                                    <div class="nav-item">
+                                        <div class="nav-icon">
+                                            <i class="fa fa-home"></i>
+                                        </div>
+                                        <div class="nav-name">
+                                            <span>Education</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#experience">
+                                    <div class="nav-item">
+                                        <div class="nav-icon">
+                                            <i class="fa fa-home"></i>
+                                        </div>
+                                        <div class="nav-name">
+                                            <span>Experience</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#projects">
+                                    <div class="nav-item">
+                                        <div class="nav-icon">
+                                            <i class="fa fa-home"></i>
+                                        </div>
+                                        <div class="nav-name">
+                                            <span>Projects</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#hobby">
+                                    <div class="nav-item">
+                                        <div class="nav-icon">
+                                            <i class="fa fa-home"></i>
+                                        </div>
+                                        <div class="nav-name">
+                                            <span>Hobbies</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="section-item" id="rightSec">
+                    <div class="content-item">
+                        <h2 id="hello">Hello!</h2><br>
+                    </div>
+                    <div class="content-item">
+                        <p id="briefInfo">My name is <b>Hala Hammad</b>, and I am a Junior<br>Software Developer studying at Fanshawe in Computer Programmer Analyst, London,ON</p>
+                    </div>
+                    <div class="content-item">
+                        <h5 id="learnMore">learn more about me </h5>
+                    </div>
+                </section>
+            </main>
+            <footer>All Copy Rights Reserved @2021</footer>
+        </div>
+    </body>
 </html>

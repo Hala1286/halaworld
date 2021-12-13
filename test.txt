@@ -1,7 +1,0 @@
- Hala 
-Hassan Hammad
-
-
-This is a record that we want to keep
-Here is test-feature branch
-Changes done in the feature branch
