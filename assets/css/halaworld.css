@@ -73,6 +73,7 @@ ul{
     float: left;
     width: 30%;
     text-align: right;
+    margin-left: 2%;
 }
 
 .nav-name{
@@ -182,3 +183,19 @@ footer {
     margin-top: 12px;
     background-color: blue;
 }
+#contactSocialMedia {
+    margin-top:15%;
+    margin-left:20%;
+    }
+    i {
+        font-size:18px;
+        color:white;
+        }
+        #aboutAwesome{
+        color:blue;
+        font-size:12px;
+        }
+        .socialIcon {
+            display:inline-block;
+            margin-left: 6%;
+        }
