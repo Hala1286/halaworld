@@ -1,0 +1,201 @@
+html body {
+    /* #RESET browser settings*/
+    font-weight:normal;
+    font-size: 13px;
+    display:block; /* This replace you styles for -> header,nav,section,aside,footer,main */
+    text-decoration:none;
+    /* #END RESET browser settings*/
+
+    /* ALIGN  <div id=root> in the middle */
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    padding:0;
+    margin: auto;
+    /* END ALIGN */
+
+    /* DEFINE viewport size */ 
+    width: 100%; 
+    height: 100%;
+
+}
+
+i {
+    font-size:1em;
+}
+
+#root{
+    /*  border:1px solid;*/
+    width: 100%;  
+    height: 100%;
+    background-color:#5887C4;
+}
+
+main {
+    width:100%;
+    height: 93%;
+}
+
+ul{
+    list-style-type:none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+}
+/* Add a bit of magic to the nav bar*/
+.nav-item{
+    width:100%;
+    height:36px;
+    padding-top: 16px;
+}
+
+@keyframes fancyhover {
+    0%{
+        background: rgb(255 255 255 / 32%);
+    }
+    100%{
+        background: rgb(255 255 255 / 32%);
+        text-shadow:2px 4px 2px #26547c;        
+    }
+}
+
+.nav-item:hover{
+    color:white;
+    animation-fill-mode: forwards;
+    animation-duration: 0.3s;
+    animation-name: fancyhover;
+}
+
+.nav-icon{
+    float: left;
+    width: 30%;
+    text-align: right;
+    margin-left: 2%;
+}
+
+.nav-name{
+    padding-left: 5px;
+    float: left;
+    width: 65%;    
+}
+
+a{
+    text-decoration:none;
+    font-family:verdane;
+    font-weight:bold;
+    color:white;
+}
+
+.section-item{
+    float:left;
+    margin-top:2%;
+    height:100%;
+}
+.section-sub-item{
+    width:100%;
+    position:relative;
+    top:0;
+    left:0;
+    padding:0;
+    margin:auto;
+}
+
+#leftSec {
+    width:20%;
+    margin-left:3%;
+    border: 2px solid #26547C;
+    background-color:#26547C;
+}
+#profile-container{
+    width:65%;
+    height:100%;
+    margin:auto;
+    margin-top:5%;
+}
+
+#profilepic{
+    width:100%;
+    height:84%;
+    margin:auto;
+    border:2px solid #5887C4;
+    border-radius: 50%;
+}
+
+#rightSec {
+    background-image: url(/assets/image/backgroundHomejpg.jpg);
+    width: 71%;
+    height:96%;
+    margin-left: 3%;
+    border: 3px solid white;
+}
+
+.content-item{
+    position: relative;
+    width:100%;
+    top:36%;
+}
+
+
+#hello{
+    top: 36%;
+    text-align:center;
+    color:white;
+    font-size:3em;
+}
+
+#briefInfo {
+    text-align:center;
+    color:white;
+    font-size:20px;
+    line-height:70px;
+}
+
+#learnMore {
+    margin-top:15px;
+    text-align:center;
+    color:blue;
+    font-size:12px;
+}
+
+#job {
+    text-align:center;
+    color:white;
+    font-size:15px;
+    font-weight:normal;
+}
+
+#name {
+    text-align:center;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+}
+
+footer {
+    clear: both;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 30px;
+    margin-top: 12px;
+    background-color: blue;
+}
+#contactSocialMedia {
+    margin-top:15%;
+    margin-left:20%;
+    }
+    i {
+        font-size:18px;
+        color:white;
+        }
+        #aboutAwesome{
+        color:blue;
+        font-size:12px;
+        }
+        .socialIcon {
+            display:inline-block;
+            margin-left: 6%;
+        } 
