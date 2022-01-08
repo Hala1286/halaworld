@@ -359,7 +359,7 @@ background:none;
     color:#B61919;
     font-size: 20px;
 }
-.skills .skills-content .left  p span{
+.skills .skills-content .left  p .collapsed{
     color:#ca876a;
     font-size: 16px;
     font-weight: 400;
