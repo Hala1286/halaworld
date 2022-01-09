@@ -1,10 +1,15 @@
 $(document).ready(function() {
-    $(`.expanded`).hide();
-    $(".expanded a, .collapsed a").click(function(eve) {
-        var $container = $(this).parents("p");
-        eve.preventDefault();
-        $container.children(".expanded, .collapsed").toggle();
-    });
+    $("#moreinfo_skills").hide();
+    $("#readmore_skills").show()
+    $("#readmore_skills").click(function(e){
+        $("#readmore_skills").hide()
+        $("#moreinfo_skills").show();
+    })
+
+    $("#readless_skills").click(function(e){
+        $("#moreinfo_skills").hide();
+        $("#readmore_skills").show()
+    })
 
     $(window).scroll(function(){
         if(this.scrollY > 20){
