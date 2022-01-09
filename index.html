@@ -1,120 +1,203 @@
-<!doctype html>
+
+
+<!DOCTYPE html>
+
 <html lang="en">
-
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="/assets/css/halaworld.css" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/1f1a8a41d0.js" crossorigin="anonymous"></script>
-        <!--<link href="/assets/css/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">-->
-
-        <title>Hala World</title>
-    </head>
-    <body>
-        <div id="root">
-            <main>
-                <section class="section-item" id="leftSec">
-                    <div class="section-sub-item">
-                        <div id="profile-container">
-                            <img id="profilepic" src="/assets/image/computer_square.jpg" alt="computerPic"/>
-                        </div>
-                    </div>
-                    <div  class="section-sub-item">
-                        <h3 id="name">Hala Hammad</h3>
-                        <p id="job">Software Developer</p>
-                    </div>
-                    <div  class="section-sub-item" id="listdiv">
-                        <ul>
-                            <li>
-                                <a href="#home">
-                                    <div class="nav-item">
-                                        <div class="nav-icon">
-                                            <i class="fa fa-home"></i>
-                                        </div>
-                                        <div class="nav-name">
-                                            <span>Home</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#education">
-                                    <div class="nav-item">
-                                        <div class="nav-icon">
-                                            <i class="fa fa-graduation-cap"></i>
-                                        </div>
-                                        <div class="nav-name">
-                                            <span>Education</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#experience">
-                                    <div class="nav-item">
-                                        <div class="nav-icon">
-                                            <i class="fa fa-calendar-check"></i>
-                                        </div>
-                                        <div class="nav-name">
-                                            <span>Experience</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#projects">
-                                    <div class="nav-item">
-                                        <div class="nav-icon">
-                                            <i class="fas fa-tasks"></i>
-                                        </div>
-                                        <div class="nav-name">
-                                            <span>Projects</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#hobby">
-                                    <div class="nav-item">
-                                        <div class="nav-icon">
-                                            <i class="fa fa-envelope"></i>
-                                        </div>
-                                        <div class="nav-name">
-                                            <span>Contact</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div id="contactSocialMedia">
-                        <div class="socialIcon">
-		                  <a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
-                        </div>
-                        <div class="socialIcon">
-     		        	<a class="socialIcon" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                        </div>
-                        <div class="socialIcon">
-                            <a class="socialIcon"href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        </div>
-                            <div class="socialIcon">
-     			<a class="socialIcon" href="https://www.linkedin.com/learning/me/in-progress?u=2219954"><i class="fab fa-linkedin-in"></i></a>
-     		    </div>
-                </section>
-                <section class="section-item" id="rightSec">
-                    <div class="content-item">
-                        <h2 id="hello">Hello!</h2><br>
-                    </div>
-                    <div class="content-item">
-                        <p id="briefInfo">My name is <b>Hala Hammad</b>, and I am a Junior<br>Software Developer studying at Fanshawe in Computer Programmer Analyst, London,ON</p>
-                    </div>
-                    <div class="content-item">
-                        <h5 id="learnMore"><i  id="aboutAwesome" class="far fa-user"></i>&nbsp learn more about me </h5>
-                    </div>
-                </section>
-            </main>
-            <footer>All Copy Rights Reserved @2021</footer>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hala World</title>
+<link rel="stylesheet" href="/assets/css/style.css">
+<script src="https://kit.fontawesome.com/1f1a8a41d0.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
         </div>
-    </body>
+<nav class="navbar">
+<div class="max-width">
+<div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+<ul class="menu">
+<li><a href="#home" class="menu-item">Home</a></li>
+<li><a href="#about" class="menu-item">About</a></li>
+<li><a href="#education" class="menu-item">Education</a></li>
+<li><a href="#skills" class="menu-item">Skills</a></li>
+<!--<li><a href="#projects" class="menu-item">projects</a></li>-->
+<li><a href="#contact" class="menu-item">Contact</a></li>
+</ul>
+<div class="menu-icon">
+<i class="fas fa-bars"></i>
+</div>
+</div>
+</nav>
+<section class="home" id="home">
+<div class="max-width">
+<div class="home-info">
+<div class="hello">Hello, my name is</div>
+<div class="name">Hala Hammad</div>
+<div class="career">And I'm a <span>Software Developer</span></div>
+<a href="#">Hire me</a>
+</div>
+</div>
+</section>
+<section class="about" id="about">
+<div class="max-width">
+<h2 class="title">About me</h2>
+<div class="about-content">
+<div class="column left">
+<img src="assets/image/computer_square.jpg" alt="">
+</div>
+<div class="column right">
+<div class="text">I'm Hala and I'm a <span class="typing-2">Software Developer</span></div>
+<p>My name is Hala Hammad . I am a student at Fanshawe in my 5th semester studying
+    computer programming analysis. I've worked on a few Java programs before including one that puts players in teams randomly and keeps track of 
+    the score. I'm interested in reading new and interesting books in fact you can even call me a book worm some of the books I read recently include Wonder, 
+    The Giver, and Grenade. I also like knitting but I wouldn't say that I knit regularly though. I speak Arabic and English.I am fascinated in travelling,
+     Meeting new people, and learning new stuff. I consider life a challenge and that I have to win everyday in order to succeed. It is not easy to learn computer
+      languages but I am very interested and excited to learn more everyday. Furthermore, I am very glad because I will accomplish my dream to make programs and be more proffessional in computer programming.This is my second semester at Fanshawe ,but I have learnt a lot.Now I can say that I am running to my dream .I hope to be more effiecient and proffessional in this field.</p>
+<a href="#">Download CV</a>
+</div>
+</div>
+</div>
+</section>
+<section class="education" id="education">
+<div class="max-width">
+<h2 class="title">My Education</h2>
+<div class="edu-content">
+<div class="card">
+<div class="box">
+    <i class="fas fa-graduation-cap"></i>
+<div class="text">2019-Current</div>
+<p>Fanshawe College, London, Ontario, Canada<br>                                                       
+    Advanced Diploma in Computer Programming and Analysis <br><br><br><br> 
+    </p>
+</div>
+</div>
+<div class="card">
+<div class="box">
+    <i class="fas fa-graduation-cap"></i>
+<div class="text">2017-2018</div>
+<p>
+ Long Life Learning Center-Saint Patrick Campus , London, Ontario, Canada<br>High School Diploma.<br><br><br><br>
+</p>
+</div>
+</div>
+<div class="card">
+<div class="box">
+    <i class="fas fa-graduation-cap"></i>
+<div class="text">2008-2011</div>
+<p>Al-Quds Open University, Palestine<br>Bachelor of Science in Information Technology – Management Information Systems<br><br></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="skills" id="skills">
+<div class="max-width">
+<h2 class="title">My skills</h2>
+<div class="skills-content">
+<div class="column left">
+<div class="text">My creative skills & experiences.</div>
+<h3><i class="fas fa-tasks"></i>&nbsp;&nbsp;Experience</h3>
+<p><span>Computer Teacher&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2014 – 2017<br>
+   Creativity International School&emsp;&emsp;Saudi Arabia</p></span><br>
+   &nbsp;• Taught computer skills to students in grades 1 through 8, including: HTML,<br> 
+   Small Basic, NVU, Photo Shop, MS Office, Sketch Up, Pencil.<br>
+   &nbsp;• Provided one-on-one support to each student, while maintaining overall focus on the group.<br>
+   &nbsp;• Acknowledged for excellent performance by supervisors, colleagues, and parents.<br>
+   &nbsp;• Maintained and improved professional competence, with Computer Skills backed <br>by training in Al-Quds University.<br>
+   &nbsp;• Worked with administration on student registration and data entry of student grades <br>and attendance.<br> 
+    </p>
+<a href="#">Read more</a>
+</div>
+<div class="column right">
+<div class="bars">
+<div class="info">
+<span>Java</span>
+<span>90%</span>
+</div>
+<div class="line java"></div>
+</div>
+<div class="bars">
+<div class="info">
+<span>c#</span>
+<span>60%</span>
+</div>
+<div class="line C"></div>
+</div>
+<div class="bars">
+<div class="info">
+<span>JavaScript</span>
+<span>40%</span>
+</div>
+<div class="line js"></div>
+</div>
+<div class="bars">
+<div class="info">
+<span>html & CSS</span>
+<span>90%</span>
+</div>
+<div class="line htmlCss"></div>
+</div>
+<div class="bars">
+<div class="info">
+<span>MySQL</span>
+<span>90%</span>
+</div>
+<div class="line mysql"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="contact" id="contact">
+<div class="max-width">
+<h2 class="title">Contact Info</h2>
+<div class="contact-content">
+<div class="column left">
+<div class="text">Get in Touch</div>
+<p>Here are my socials and contact information for inquiries<br><br><br></p>
+<div class="icons">
+<div class="row">
+<i class="fas fa-user"></i>
+<div class="info">
+<div class="head">Name</div>
+<div class="sub-title">Hala Hammad</div>
+</div>
+</div>
+<div class="row">
+<i class="fas fa-map-marker-alt"></i>
+<div class="info">
+<div class="head">Address</div>
+<div class="sub-title">London, ON, Canada</div>
+</div>
+</div>
+<div class="row">
+<i class="fas fa-envelope"></i>
+<div class="info">
+<div class="head">Email</div>
+<div class="sub-title"><a href="mailto:hala1286@live.com">hala1286@live.com</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="column right">
+    <div class="socialMedia">
+<div class="row"><a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a></div>
+<div class="row"><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></div>
+<div class="row"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></div>
+<div class="row"><a href="https://www.linkedin.com/learning/me/in-progress?u=2219954"><i class="fab fa-linkedin-in"></i></a></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<script src="/assets/script.js"></script>
+<footer>
+<span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+</footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
+</body>
 </html>
-
