@@ -105,7 +105,7 @@ font-size: 37px;
     text-align:center;
     line-height:45px;
     color: #FDD2BF;
-    z-index: 9999;
+    z-index: 999999;
     font-size: 33px;
     border-radius: 7px;
     cursor: pointer;
@@ -447,7 +447,7 @@ color:#ca876a
     }
     .menu-icon{
         display:block;
-        z-index: 999;
+        z-index: 999999;
      }
     .navbar .menu{
     position:fixed;
