@@ -1,4 +1,11 @@
-$(document).ready(function(){
+$(document).ready(function() {
+    $(`.expanded`).hide();
+    $(".expanded a, .collapsed a").click(function(eve) {
+        var $container = $(this).parents("p");
+        eve.preventDefault();
+        $container.children(".expanded, .collapsed").toggle();
+    });
+
     $(window).scroll(function(){
         if(this.scrollY > 20){
             $(`.navbar`).addClass("sticky");
