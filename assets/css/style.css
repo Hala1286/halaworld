@@ -447,7 +447,7 @@ color:#ca876a
     }
     .menu-icon{
         display:block;
-        z-index: 999999;
+        z-index: 999;
      }
     .navbar .menu{
     position:fixed;
